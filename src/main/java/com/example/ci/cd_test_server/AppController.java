@@ -11,4 +11,10 @@ public class AppController {
         return "Hi, World! LeeGeonHui";
     }
 
+    @GetMapping("/ass")
+    public  String home2(){
+        return "Hi, World! LeeGeonHuiㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹ";
+    }
+
+
 }
