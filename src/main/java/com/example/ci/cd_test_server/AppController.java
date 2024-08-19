@@ -13,7 +13,7 @@ public class AppController {
 
     @GetMapping("/ass")
     public  String home2(){
-        return "Hi, World! LeeGeonHuiㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹ";
+        return "Hi, World! LeeG";
     }
 
 

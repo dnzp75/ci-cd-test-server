@@ -25,7 +25,7 @@ class ApplicationTests {
 	void testHome2Endpoint() throws Exception {
 		mockMvc.perform(get("/ass"))
 			.andExpect(MockMvcResultMatchers.status().isOk())
-			.andExpect(MockMvcResultMatchers.content().string("This will fail"));  // 잘못된 예상 결과
+			.andExpect(MockMvcResultMatchers.content().string("Hi, World! LeeG"));  // 잘못된 예상 결과
 	}
 
 
