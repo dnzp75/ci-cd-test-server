@@ -24,11 +24,11 @@ jobs:
       - name: 테스트 진행하기
         run: ./gradlew --info test
 
-        # Test 후 Report 생성
-      - name: Publish Test Results
-        uses: EnricoMi/publish-unit-test-result-action@v2
-        if: always()
-        with:
-          junit_files: '**/build/test-results/test/TEST-*.xml'
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+#        # Test 후 Report 생성
+#      - name: Publish Test Results
+#        uses: EnricoMi/publish-unit-test-result-action@v2
+#        if: always()
+#        with:
+#          junit_files: '**/build/test-results/test/TEST-*.xml'
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
